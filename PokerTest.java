@@ -1,9 +1,5 @@
-
-public class PokerTest{
-
-    //this class must remain unchanged
-    //your code must work with this test class
- 
+/** This class is the tester for the poker game */
+public class PokerTest{ 
     public static void main(String[] args){
         if (args.length<1){
                 Game g = new Game();
